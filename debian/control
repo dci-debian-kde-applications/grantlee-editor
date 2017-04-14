@@ -92,11 +92,13 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kaddressbook (<< 4:15),
         kdepim-doc (<= 4:16.08.0+p16.04+git201609),
         kmail (<< 4:4.14.3),
-        libkf5libkdepim5 (<= 4:16.04)
+        libkf5libkdepim5 (<= 4:16.04),
+        ${kde-l10n:all}
 Replaces: kaddressbook (<< 4:15),
           kdepim-doc (<= 4:16.08.0+p16.04+git201609),
           kmail (<< 4:4.14.3),
-          libkf5libkdepim5 (<= 4:16.04)
+          libkf5libkdepim5 (<= 4:16.04),
+          ${kde-l10n:all}
 Suggests: kaddressbook, kmail
 Description: Theme Editors for KDE PIM applications
  KDE PIM Theme Editors allow you to create and edit various KDE themes for
