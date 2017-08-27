@@ -8,7 +8,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Michael Meskes <meskes@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Eshat Cakar <info@eshat.de>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 3.1~),
                debhelper (>= 9),
                pkg-config,
@@ -24,15 +24,19 @@ Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kaddressbook (<< 4:15),
+        kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
         kdepim-doc (<= 4:16.08.0+p16.04+git201609),
         kmail (<< 4:4.14.3),
         libkf5libkdepim5 (<= 4:16.04),
-        ${kde-l10n:all}
+        ${kde-l10n:all},
 Replaces: kaddressbook (<< 4:15),
+          kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
           kdepim-doc (<= 4:16.08.0+p16.04+git201609),
           kmail (<< 4:4.14.3),
           libkf5libkdepim5 (<= 4:16.04),
-          ${kde-l10n:all}
+          ${kde-l10n:all},
 Suggests: kaddressbook, kmail
 Description: Theme Editors for KDE PIM applications
  KDE PIM Theme Editors allow you to create and edit various KDE themes for
