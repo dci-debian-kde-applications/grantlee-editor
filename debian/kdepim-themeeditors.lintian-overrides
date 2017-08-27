@@ -1,0 +1,2 @@
+kdepim-themeeditors: package-name-doesnt-match-sonames libgrantleethemeeditor5
+kdepim-themeeditors: non-dev-pkg-with-shlib-symlink usr/lib/*/libgrantleethemeeditor.so.5.5.* usr/lib/*/libgrantleethemeeditor.so
