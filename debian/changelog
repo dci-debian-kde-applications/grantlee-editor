@@ -4,6 +4,7 @@ grantlee-editor (4:17.08.3-2) UNRELEASED; urgency=medium
   * Do not ship development symlinks of libraries.
   * Remove unused dh_makeshlibs override, as there are no public shared
     libraries.
+  * Simplify watch file, and switch it to https.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Dec 2017 16:54:55 +0100
 
